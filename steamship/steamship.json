@@ -1,0 +1,49 @@
+{
+	"type": "package",
+	"handle": "ask-my-book-chat-api-test",
+	"version": "0.0.20",
+	"description": null,
+	"author": "Enias",
+	"entrypoint": "Unused",
+	"public": true,
+	"plugin": null,
+	"build_config": {
+		"ignore": [
+			"tests",
+			"examples",
+			"upload"
+		]
+	},
+	"configTemplate": {
+		"index_name": {
+			"type": "string",
+			"description": null,
+			"default": null
+		},
+		"default_chat_session_id": {
+			"type": "string",
+			"description": null,
+			"default": "default"
+		}
+	},
+	"steamshipRegistry": {
+		"tagline": "Example using Steamship to Deploy LangChain",
+		"tagline2": null,
+		"usefulFor": null,
+		"videoUrl": null,
+		"githubUrl": null,
+		"demoUrl": null,
+		"blogUrl": null,
+		"jupyterUrl": null,
+		"authorGithub": "EniasCailliau",
+		"authorName": "Enias",
+		"authorEmail": null,
+		"authorTwitter": null,
+		"authorUrl": null,
+		"tags": [
+			"Prompt API",
+			"LangChain",
+			"ChatBot"
+		]
+	}
+}
